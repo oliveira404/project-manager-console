@@ -1,30 +1,18 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# Ignorar arquivos compilados
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Ignorar pastas de build/output
+/out/
+/build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Ignorar configurações da IDE IntelliJ
+.idea/
+*.iml
 
-### VS Code ###
-.vscode/
+# Ignorar arquivos temporários
+*.log
+*.tmp
 
-### Mac OS ###
+# Ignorar arquivos do sistema
 .DS_Store
+Thumbs.db
